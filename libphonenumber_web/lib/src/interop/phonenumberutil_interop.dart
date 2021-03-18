@@ -219,7 +219,7 @@ class PhoneNumberUtilJsImpl {
   external String maybeStripExtension(StringBufferJsImpl number);
 
   @JS('parse')
-  external PhoneNumberJsImpl parse(String numberToParse, String defaultRegion);
+  external PhoneNumberJsImpl parse(String? numberToParse, String defaultRegion);
 
   @JS('parseAndKeepRawInput')
   external PhoneNumberJsImpl parseAndKeepRawInput(
